@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  crawler:
+    environment:
+      DARC_SAVE: 1
+      SAVE_DB: 1
+      DAVE_SAVE_REQUESTS: 1
+      DAVE_SAVE_SELENIUM: 1
+      
+  loader:
+    environment:
+      DARC_SAVE: 1
+      SAVE_DB: 1
+      DAVE_SAVE_REQUESTS: 1
+      DAVE_SAVE_SELENIUM: 1

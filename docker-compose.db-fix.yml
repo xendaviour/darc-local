@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  crawler:
+    environment:
+      SAVE_DB: 0
+      DARC_SAVE: 1
+      
+  loader:
+    environment:
+      SAVE_DB: 0
+      DARC_SAVE: 1
